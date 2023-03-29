@@ -9,3 +9,7 @@ search:
 services:
 	- App\Router\RouterFactory::createRouter
 	- App\Logger
+
+tracy:
+	bar:
+		- App\Tracy\LogPanel
